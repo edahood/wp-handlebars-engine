@@ -1,0 +1,29 @@
+{
+    "name": "edahood/wp-hbs-engine",
+    "type": "wordpress-plugin",
+    "description": "Renders Handlebars templates within your WordPress Theme/Plugin",
+    "keywords": [
+        "wordpress",
+        "plugins",
+        "handlebars",
+        "lightncandy"
+    ],
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eliot Dahood",
+            "email": "eliot.dahood@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "zordius/lightncandy": "1.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HBE\\": "lib/"
+        }
+    }
+}
